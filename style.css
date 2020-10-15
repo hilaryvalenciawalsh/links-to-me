@@ -1,0 +1,66 @@
+body {
+  background: url("images/Screen\ Shot\ 2020-10-15\ at\ 1.35.50\ AM.png") no-repeat
+    center fixed;
+  background-size: cover;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.circle-shape {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link-list-item {
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 20px auto;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.15s;
+  border-radius: 2px;
+}
+
+.link-list-item:hover,
+a:hover {
+  color: white;
+  border-color: white;
+  text-shadow: 0 0 2em white;
+}
+
+.icon-list-img {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
+.light {
+  background: #315cb9;
+}
